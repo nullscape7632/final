@@ -1,0 +1,12 @@
+/* Add these styles to your style.css file */
+
+.modelslide {
+    width: 100%; /* Set the width as needed */
+    height: 400px; /* Set the height as needed */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    border: 1px solid #ccc; /* Add a border to the model viewer */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
