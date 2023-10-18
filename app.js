@@ -11,8 +11,8 @@ function salcal() {
     } 
     else {
         const result = (sal-(sal*0.12)-(sal*0.0075))+(((sal/wd)/9)*ot)
-        const one = wd*9+OT
-        const two = (((sal/wd)/9)*OT)
+        const one = wd*9+ot
+        const two = (((sal/wd)/9)*ot)
 
         document.getElementById("result").textContent = "Result: " + result.toFixed(3);
         document.getElementById("one").textContent = "worked in hrs: " + one.toFixed(3);
