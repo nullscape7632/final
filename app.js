@@ -10,7 +10,7 @@ function salcal() {
         alert("Please fill the empty boxes to proceed");  
     } 
     else {
-        const result = (sal-(sal*0.12)-(sal*0.0075))+(((sal/wd)/9)*ot)
+        const result = (sal-(sal*0.12)-(sal<20000?sal*0.0075:0))+(((sal/wd)/9)*ot)
         const one = wd*9+ot
         const two = (((sal/wd)/9)*ot)
 
